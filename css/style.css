@@ -25,6 +25,7 @@
 body {
   font-size: 1.25rem;
   font-family: "Muller";
+  color: #000;
 }
 
 .container {
@@ -81,6 +82,9 @@ body {
   border-radius: 8px;
   padding: 10px 37px;
 }
+.menu-right-button:hover {
+  text-decoration: underline;
+}
 .menu-right-mob-tel {
   display: none;
 }
@@ -123,4 +127,68 @@ body {
   .menu-right-telephone {
     display: none;
   }
+}
+.main-offer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 22px;
+}
+.main-offer-block-left {
+  padding-top: 54px;
+}
+.main-offer-block-left-body h1 {
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.main-offer-block-left-body p {
+  font-size: 28px;
+  line-height: 39.2px;
+  margin-bottom: 88px;
+}
+.main-offer-block-left-adv .adv-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 72px;
+     -moz-column-gap: 72px;
+          column-gap: 72px;
+  row-gap: 28px;
+  -ms-grid-rows: 1fr 28px 1fr;
+  -ms-grid-columns: 1fr 72px 1fr;
+      grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  margin-bottom: 93px;
+}
+.main-offer-block-left-adv .adv-items .adv-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-offer-block-left-adv .adv-items .adv-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 12px;
+}
+.main-offer-block-left-adv .adv-items .adv-item div {
+  font-size: 16px;
+}
+.main-offer-block-left-btn .text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.main-offer-block-left-btn .offer-btn {
+  text-transform: uppercase;
+  background: #2F80ED;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-decoration: none;
 }

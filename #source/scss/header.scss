@@ -35,6 +35,10 @@
         color: #2F80ED;
         border-radius: 8px;
         padding: 10px 37px;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     &-mob-tel {
