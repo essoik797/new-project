@@ -277,14 +277,57 @@ body {
     font-size: 16px;
     line-height: 22.4px;
     text-align: center;
-  }
-
-  .adv-items {
-    margin-top: 500px;
+    width: auto;
   }
 
   .main-offer-block-right img {
-    right: 91px;
+    top: 144px;
+    right: 42px;
     width: 250px;
+  }
+}
+@media (max-width: 668px) {
+  .main-offer-block-left-adv .adv-items {
+    margin-top: 500px;
+    display: -ms-grid;
+    display: grid;
+  }
+  .main-offer-block-left-btn {
+    text-align: center;
+  }
+  .main-offer-block-left-btn .text {
+    max-width: none;
+  }
+  .main-offer-block-right img {
+    top: 171px;
+    right: 193px;
+  }
+}
+@media (max-width: 588px) {
+  .main-offer-block-left-adv .adv-items {
+    display: block;
+  }
+  .main-offer-block-left-adv .adv-items br {
+    display: none;
+  }
+  .main-offer-block-left-btn .offer-btn {
+    font-size: 16px;
+  }
+}
+@media (max-width: 494px) {
+  .main-offer-block-left-adv .adv-items .adv-item {
+    display: block;
+    text-align: center;
+  }
+  .main-offer-block-left-adv .adv-items .adv-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  .main-offer-block-left-btn .offer-btn {
+    padding: 8px 21px;
+    font-size: 14px;
+  }
+  .main-offer-block-right img {
+    right: 99px;
+    top: 186px;
   }
 }
