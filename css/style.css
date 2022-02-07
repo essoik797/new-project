@@ -281,6 +281,10 @@ body {
   margin-bottom: 40px;
 }
 
+section {
+  margin-bottom: 96px;
+}
+
 .btn {
   border-radius: 8px;
   background-color: #2f80ed;
@@ -296,20 +300,17 @@ body {
   background: #ffcf10;
   border-radius: 12px;
   width: 100%;
-  text-align: center;
 }
 
 .block__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 32px 15px;
+  padding: 32px 0px;
+  margin: 0 auto;
 }
 .block__item img {
   margin-right: 31px;
@@ -368,7 +369,7 @@ body {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: absolute;
-  top: -1.5px;
+  top: -2px;
   right: -2.5px;
 }
 .step__num .step__decor .romb-before::before {
@@ -380,7 +381,7 @@ body {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: absolute;
-  top: -1.5px;
+  top: -2px;
   left: -2.5px;
 }
 
@@ -548,6 +549,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 -8px;
+  margin-top: 52px;
 }
 
 .condition {
@@ -609,6 +611,10 @@ body {
 
 .desc-cond {
   margin-bottom: 17px;
+}
+
+.cond-yel {
+  padding: 32px;
 }
 
 @media (max-width: 768px) {
@@ -1022,11 +1028,15 @@ body {
 .int-right p {
   text-align: center;
   margin-bottom: 45px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .int-down {
   padding-top: 20px;
+}
+
+.int-yel {
+  padding: 32px 24px;
 }
 
 .form2 div:last-child {
@@ -1149,10 +1159,16 @@ body {
 
 .location-div {
   font-size: 1rem;
+  text-align: center;
 }
 
 .location-title {
   font-weight: 700;
+}
+
+.location-form p {
+  text-align: center;
+  font-size: 1rem;
 }
 
 @media (max-width: 941px) {
